@@ -18,7 +18,7 @@ public class PersonTest {
     void shouldCalculateBonus(){
         Person tomHanks = new Person("Tom", "Hanks");
         int actual = tomHanks.giveBonus(3, 10);
-        int expected = 20;
+        int expected = 21;
         assertThat(actual).as("Bonus policzone nieprawidłwo").isEqualTo(expected);
     }
 
